@@ -1,0 +1,57 @@
+name: online_task_insta_clone
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.0.9
+  flutter_icons: ^1.1.0
+  #for posts
+  image_picker: ^0.8.4+11
+
+  #for image
+  cached_network_image: ^3.2.0
+
+  #local database:
+  shared_preferences: ^2.0.13
+
+
+  #firebase
+  firebase_storage: ^10.2.10
+  firebase_auth: ^3.3.12
+  firebase_core: ^1.14.0
+  firebase_messaging: ^11.2.12
+  cloud_firestore: ^3.1.10
+  #notifications:
+  device_info_plus: ^3.2.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+  fonts:
+    - family: Billabong
+      fonts:
+       - asset: assets/fonts/Billabong.ttf
